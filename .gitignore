@@ -1,0 +1,32 @@
+# Node & Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Uploads & Temp Data (preserve directory, ignore transient scans)
+uploads/scan_*
+uploads/*.tmp
+
+# Backups & Archives
+craftshield-next_backup/
+*.bak
+*.backup
